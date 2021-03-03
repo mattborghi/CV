@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: "/v4", // used for gh-pages and gatsby build
   siteMetadata: {
     title: 'Matias Borghi',
     description:
@@ -8,7 +9,6 @@ module.exports = {
     siteUrl: 'https://mattborghi.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@borghim',
-    pathPrefix: "/v4", // used for gh-pages and gatsby build
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
