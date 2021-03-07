@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Matias Borghi',
     description:
-      'Matias Borghi is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Matias Borghi is a physicist working as a Quantitative Analyst doing some Research Software Engineering.',
     siteUrl: 'https://mattborghi.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@borghim',
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'UA-175899844-1',
       },
     },
   ],

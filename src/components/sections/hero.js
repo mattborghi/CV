@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { StyledText } from "./about";
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -47,22 +48,35 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
+  const skills = ['Scientific Machine Learning', 'Financial Derivatives', 'Astrophysics', 'Deep Learning', 'Wildlife Conservation']
+
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Matias Borghi.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">Wherever curiosity leads me.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I am a physicist working as a Quantitative Analyst doing Research Software Engineering.
     </p>
   );
   const five = (
+    <p>
+      Some of my interests are:
+    </p>
+  )
+  const six = (
+    <StyledText>
+      <ul className="skills-list">
+        {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+      </ul>
+    </StyledText>
+  )
+  const seven = (
     <a href={`mailto:${email}`} className="email-link">
       Get In Touch
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four, five, six, seven];
 
   return (
     <StyledHeroSection>

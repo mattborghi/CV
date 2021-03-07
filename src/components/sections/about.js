@@ -18,7 +18,7 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
-const StyledText = styled.div`
+export const StyledText = styled.div`
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -157,7 +157,7 @@ const About = () => {
               Risk and Analytics team at <a href="https://www.crisil.com/">Crisil</a>.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are a few technologies I've been working on with recently:</p>
           </div>
 
           <ul className="skills-list">
