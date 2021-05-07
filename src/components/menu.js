@@ -260,7 +260,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf" className="resume-link">
               Resume
             </a>
           </nav>
