@@ -41,18 +41,47 @@ const StyledSocialList = styled.ul`
       }
     }
   }
+  // Tooltip
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 6px 0;
+    // font-family: "";
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 108%;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 `;
 
 const Social = ({ isHome }) => (
   <Side isHome={isHome} orientation="left">
     <StyledSocialList>
       {socialMedia &&
-        socialMedia.map(({ url, name }, i) => (
-          <li key={i}>
-            <a href={url} aria-label={name}>
-              <Icon name={name} />
-            </a>
-          </li>
+        socialMedia.map(({ url, name, tooltip }, i) => (
+          <div key={i} className="tooltip">
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+            <span className="tooltiptext">{tooltip}</span>
+          </div>
         ))}
     </StyledSocialList>
   </Side>

@@ -5,14 +5,17 @@ module.exports = {
     {
       name: 'GitHub',
       url: 'https://github.com/mattborghi',
+      tooltip: 'GitHub',
     },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/borghimatias',
+      tooltip: 'LinkedIn',
     },
     {
       name: 'Download',
-      url: 'https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf'
+      url: 'https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf',
+      tooltip: 'Resume',
     }
   ],
 
