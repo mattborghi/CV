@@ -6,22 +6,14 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/mattborghi',
     },
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/bchiang7',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/bchiang7',
-    // },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/borghimatias',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
-    // },
+    {
+      name: 'Download',
+      url: 'https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf'
+    }
   ],
 
   navLinks: [
