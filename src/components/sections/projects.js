@@ -157,6 +157,8 @@ const Projects = () => {
               tech
               github
               external
+              ios
+              android
             }
             html
           }
@@ -193,7 +195,7 @@ const Projects = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { github, external, title, tech } = frontmatter;
+            const { github, external, title, tech, android, ios } = frontmatter;
 
             return (
               <CSSTransition
@@ -218,6 +220,16 @@ const Projects = () => {
                           {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
+                            </a>
+                          )}
+                          {ios && (
+                            <a href={ios} aria-label="Apple App Store Link">
+                              <Icon name="AppStore" />
+                            </a>
+                          )}
+                          {android && (
+                            <a href={android} aria-label="Google Play Store Link">
+                              <Icon name="PlayStore" />
                             </a>
                           )}
                           {external && (
