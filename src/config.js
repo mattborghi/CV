@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       name: 'Download',
-      url: 'https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf',
+      url: 'https://docs.google.com/viewer?url=https://github.com/mattborghi/cv-data/raw/main/MRM%20cv/mborghi-cv.pdf',
       tooltip: 'Resume',
     }
   ],

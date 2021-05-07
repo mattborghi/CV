@@ -194,7 +194,7 @@ const Nav = ({ isHome }) => {
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                   <a
                     className="resume-button"
-                    href="https://docs.google.com/viewer?url=https://github.com/mattborghi/CV/raw/data/MRM%20cv/mborghi-cv.pdf"
+                    href="https://docs.google.com/viewer?url=https://github.com/mattborghi/cv-data/raw/main/MRM%20cv/mborghi-cv.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
                     Resume
