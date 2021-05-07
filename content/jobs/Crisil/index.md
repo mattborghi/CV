@@ -13,7 +13,7 @@ url: 'https://www.crisil.com/'
 the top-three global banks.
 - In-scope models covered products of all complexities from simple vanilla to exotics like equity-linked
 swaptions, range accruals and variance-linked models
-- Responsible for creating technical documentation and generating executive summary reports in LaTeX.
+- Responsible for creating technical documentation and generating executive summary reports in *LaTeX*.
 - Scrutiny of pricing methodology, model soundness and test suite design.
 - Creating and executing calibration, benchmarking, computational performance, hedging, limiting cases, stability
 and convergence tests using C#. CCAR stress testing and PAA explains.
