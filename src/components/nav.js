@@ -7,7 +7,8 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
-import IconLogo from '../images/cv.png';
+
+const IconLogo = "https://raw.githubusercontent.com/mattborghi/logo/97e384fd34081783bea753315f81c86c633a2184/assets/mb.svg";
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -65,8 +66,8 @@ const StyledNav = styled.nav`
 
     a {
       color: var(--green);
-      width: 42px;
-      height: 42px;
+      width: 140px;
+      height: 60px;
 
       &:hover,
       &:focus {
@@ -160,11 +161,11 @@ const Nav = ({ isHome }) => {
               <div className="logo" tabIndex="-1">
                 {isHome ? (
                   <a href="/" aria-label="home">
-                    <img src={IconLogo} alt="cv" width="30px" />
+                    <img src={IconLogo} alt="cv" height="100%" width="100%" />
                   </a>
                 ) : (
                   <Link to="/" aria-label="home">
-                      <img src={IconLogo} alt="cv" width="30px" />
+                      <img src={IconLogo} alt="cv" height="100%" width="100%" />
                   </Link>
                 )}
               </div>
