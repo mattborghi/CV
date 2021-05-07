@@ -1,7 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: "/v4", // used for gh-pages and gatsby build
+  pathPrefix: "/CV", // used for gh-pages and gatsby build
   siteMetadata: {
     title: 'Matias Borghi',
     description:
