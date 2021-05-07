@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/mattborghi/logo/97e384fd34081783bea753315f81c86c633a2184/assets/mb.svg" width="300px" />
 </div>
 <h1 align="center">
-  mattborghi.github.io/cv
+  My CV Website
 </h1>
 
 ## 🛠 Installation & Set Up
