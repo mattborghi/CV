@@ -13,4 +13,4 @@ company: 'Argentine Institute of Radio Astronomy'
 showInProjects: true
 ---
 
-Developing of a Monte Carlo simulation to quantify sensitivity and the detection efficiency of a radiotelescope under several possible configurations.
+Developing a Monte Carlo simulation in order to quantify sensitivity and the detection efficiency of a radiotelescope under several possible configurations.
