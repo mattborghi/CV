@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Matias Borghi',
     description:
-      'Matias Borghi is a physicist working as a Quantitative Analyst doing some Research Software Engineering.',
+      'Matias Borghi is a physicist working as a Quantitative Analyst and Researcher.',
     siteUrl: 'https://mattborghi.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@borghim',

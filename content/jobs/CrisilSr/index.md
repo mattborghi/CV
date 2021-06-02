@@ -7,7 +7,7 @@ range: 'March 2019 - Present'
 url: 'https://www.crisil.com/'
 ---
 
-**Research Software Engineering**
+**Quantitative Researcher**
 
 - Working in a research and development team for pricing and risk management Equity and Hybrid Exotic
 financial derivatives using Monte Carlo simulations, mainly using [*Julia*](https://julialang.org/).

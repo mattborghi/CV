@@ -141,7 +141,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Matias, a Quantitative Analyst based in Buenos Aires, willing to relocate to NZ.</p>
+            <p>Hello! I'm Matias, a Quantitative Analyst based in Buenos Aires, willing to relocate abroad.</p>
 
             <p>
               I am a physicist interested in tackling challenging analytical problems using computational tools.

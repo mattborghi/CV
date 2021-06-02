@@ -55,7 +55,7 @@ const Hero = () => {
   const three = <h3 className="medium-heading">Wherever curiosity leads me.</h3>;
   const four = (
     <p>
-      I am a physicist working as a Quantitative Analyst doing Research Software Engineering.
+      I am a physicist working as a Quantitative Researcher at Crisil since 2017.
     </p>
   );
   const five = (
