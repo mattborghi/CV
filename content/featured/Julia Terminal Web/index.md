@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2021-02-27'
 title: 'Julia Terminal on the web'
 cover: './preview.png'
 github: 'https://github.com/mattborghi/Julia-Terminal-Web'

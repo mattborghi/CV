@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2021-01-06'
 title: 'Background Task Queues'
 cover: './preview.png'
 github: 'https://github.com/mattborghi/background-tasks-queue'

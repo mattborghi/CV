@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2020-05-24'
 title: 'Julia Editor on the web'
 cover: './preview.png'
 github: 'https://github.com/mattborghi/monaco-editor-julia-language-server'
