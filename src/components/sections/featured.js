@@ -290,6 +290,10 @@ const Featured = () => {
         Some Things I’ve Built
       </h2>
 
+      <p style={{ paddingBottom: "2rem" }}>
+        Please make sure to check out also <a className="email-link" href="https://mattborghi.github.io/projects/">this site</a> for more information about projects.
+      </p>
+
       <div>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
