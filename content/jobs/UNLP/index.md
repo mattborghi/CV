@@ -1,7 +1,7 @@
 ---
-date: '2015-09-01'
+date: '2014-01-01'
 title: 'Teaching Assistant'
-company: 'National University of La Plata'
+company: 'UNLP'
 location: 'La Plata, Buenos Aires'
 range: 'September 2015 - September 2017'
 url: 'https://unlp.edu.ar/'
