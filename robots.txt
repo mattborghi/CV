@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mattborghi.github.io/sitemap.xml
+Sitemap: https://mattborghi.github.io/CV/sitemap/sitemap-index.xml
 Host: https://mattborghi.github.io
