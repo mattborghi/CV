@@ -3,7 +3,7 @@ date: '2019-03-14'
 title: 'Sr. Quantitative Analyst'
 company: 'Crisil'
 location: 'Vicente Lopez, Buenos Aires'
-range: 'March 2019 - Present'
+range: 'March 2019 - May 2021'
 url: 'https://www.crisil.com/'
 ---
 
