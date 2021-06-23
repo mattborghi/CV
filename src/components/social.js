@@ -76,7 +76,7 @@ const Social = ({ isHome }) => (
         socialMedia.map(({ url, name, tooltip }, i) => (
           <div key={i} className="tooltip">
             <li key={i}>
-              <a href={url} aria-label={name}>
+              <a href={url} aria-label={name} target="_blank" rel="noreferrer">
                 <Icon name={name} />
               </a>
             </li>

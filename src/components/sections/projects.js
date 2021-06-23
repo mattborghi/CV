@@ -218,29 +218,33 @@ const Projects = () => {
                         </div>
                         <div className="project-links">
                           {github && (
-                            <a href={github} aria-label="GitHub Link">
+                            <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
                               <Icon name="GitHub" />
                             </a>
                           )}
                           {ios && (
-                            <a href={ios} aria-label="Apple App Store Link">
+                            <a href={ios} aria-label="Apple App Store Link" target="_blank" rel="noreferrer">
                               <Icon name="AppStore" />
                             </a>
                           )}
                           {android && (
-                            <a href={android} aria-label="Google Play Store Link">
+                            <a href={android} aria-label="Google Play Store Link" target="_blank" rel="noreferrer">
                               <Icon name="PlayStore" />
                             </a>
                           )}
                           {external && (
-                            <a href={external} aria-label="External Link" className="external">
+                            <a href={external} aria-label="External Link" className="external" target="_blank" rel="noreferrer">
                               <Icon name="External" />
                             </a>
                           )}
                         </div>
                       </div>
 
-                      <h3 className="project-title">{title}</h3>
+                      <h3 className="project-title">
+                        <a href={external} target="_blank" rel="noreferrer">
+                          {title}
+                        </a>
+                      </h3>
 
                       <div
                         className="project-description"
